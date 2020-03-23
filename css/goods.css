@@ -1,0 +1,180 @@
+.goodslist {
+	display: flex;
+	padding: 20upx;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.goodslist .goods-view {
+	width: 347upx;
+	height: 494upx;
+	background-color: #ffffff;
+	border-radius: 16upx;
+	overflow: hidden;
+	margin-bottom: 20upx;
+}
+
+.goodslist .goods-img {
+	width: 347upx;
+	height: 347upx;
+}
+
+.goodslist .goods-img image {
+	width: 100%;
+	height: 100%;
+}
+
+.goodslist .goods-down {
+	padding: 20upx;
+}
+
+.goodslist .goods-name {
+	font-size: 28upx;
+	color: #2c2c2c;
+}
+
+.goodslist .goods-dview {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20upx;
+}
+
+.goodslist .goods-dview .goods-price {
+	font-size: 29upx;
+	color: #a500d3;
+}
+
+.goodslist .goods-dview .icon-car image {
+	width: 45upx;
+	height: 41upx;
+}
+
+/* 第二种样式*/
+.goodslist1 {
+	padding: 22upx;
+}
+
+.goodslist1 .goods-view {
+	padding: 30upx 35upx 30upx 25upx;
+	display: flex;
+	background: #FFF;
+	margin-bottom: 20upx;
+	border-radius: 20upx;
+
+}
+
+.goodslist1 .goods-img {
+	width: 172upx;
+	height: 172upx;
+	border-radius: 15upx;
+	overflow: hidden;
+	margin-right: 25upx;
+}
+
+.goodslist1 .goods-right {
+	width: 450upx;
+}
+
+.goodslist1 .goods-right .goods-name {
+	line-height: 48upx;
+	font-size: 28upx;
+	color: #2f2f2f;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	margin-top: 10upx;
+}
+
+.goodslist1 .goods-right .goods-price {
+	font-size: 28upx;
+	color: #b701e5;
+}
+
+/* 第三种样式 */
+.goodslist2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 0upx 54upx 20upx;
+}
+
+.goodslist2 .goods-view {
+	width: 185upx;
+}
+
+.goodslist2 .goods-img {
+	width: 185upx;
+	height: 185upx;
+	border-radius: 15upx;
+	overflow: hidden;
+}
+
+.goodslist2 .goods-name {
+	font-size: 25upx;
+	color: #292929;
+	padding: 10upx 4upx;
+}
+
+.goodslist2 .goods-price {
+	font-size: 25upx;
+	color: #a500d3;
+}
+/* 第四种样式*/
+.goodslist3 {
+	padding: 22upx;
+}
+
+.goodslist3 .goods-view {
+	padding: 30upx 35upx 30upx 25upx;
+	display: flex;
+	align-items: center;
+	background: #FFF;
+	margin-bottom: 20upx;
+	border-radius: 20upx;
+
+}
+
+.goodslist3 .goods-img {
+	width: 172upx;
+	height: 172upx;
+	border-radius: 15upx;
+	overflow: hidden;
+	margin-right: 25upx;
+}
+
+.goodslist3 .goods-right {
+	width: 320upx;
+	margin-right: 20upx;
+	height: 172upx;
+}
+
+.goodslist3 .goods-right .goods-name {
+	line-height: 48upx; 
+	font-size: 28upx;
+	color: #2f2f2f;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	margin-top: 10upx;
+}
+
+.goodslist3 .goods-right .goods-price {
+	font-size: 28upx;
+	color: #b701e5;
+	font-weight: 550;
+	margin-top: 15upx;
+}
+.goodslist3 .goods-print{
+	padding-left: 50upx;
+	height: 146rpx;
+	border-left: solid #EEE 1upx;
+	display: flex;
+	align-items: center;
+	
+}
+.goodslist3 .goods-print image{
+	width: 38rpx;
+		height: 38rpx;
+}

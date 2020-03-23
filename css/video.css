@@ -1,0 +1,183 @@
+.video-list .video-view {
+	width: 696upx;
+	height: 430upx;
+	background-color: #ffffff;
+	border-radius: 20upx;
+	border: solid 1upx #e5e5e5;
+	box-shadow: 0 0 10upx rgba(0, 0, 0, 0.3);
+	margin: auto;
+	margin-top: 20upx;
+	overflow: hidden;
+}
+
+.video-list .video-img-view {
+	width: 100%;
+	height: 268upx;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+.video-list .video-img-view .video-img {
+	width: 100%;
+	height: 100%;
+}
+
+.video-list .video-img-view .video-play {
+	width: 71upx;
+	height: 71upx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.video-list .video-down {
+	padding: 30upx;
+}
+
+.video-list .video-name {
+	font-size: 30upx;
+	font-weight: 550;
+	color: #232323;
+}
+
+.video-list .video-dview {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24upx;
+	color: #a4a4a4;
+	margin-top: 30upx;
+}
+
+/* 第二样式*/
+.video-list1 {
+	width: 700upx;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.video-list1 .video-view {
+	width: 335upx; 
+	background-color: #ffffff;
+	border-radius: 12upx; 
+	margin-top: 20upx;
+	overflow: hidden;
+}
+
+.video-list1 .video-img-view {
+	width: 100%;
+	height: 207upx;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+.video-list1 .video-img-view .video-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12upx;
+	overflow: hidden;
+}
+
+.video-list1 .video-img-view .video-play {
+	width: 71upx;
+	height: 71upx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.video-list1 .video-down {
+	padding: 25upx 9upx;
+}
+
+.video-list1 .video-name {
+	font-size: 30upx;
+	color: #232323;
+}
+
+.video-list1 .video-dview {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24upx;
+	color: #a4a4a4;
+	margin-top: 30upx;
+}
+
+.video-list1 .price {
+	font-size: 30upx;
+}
+
+.video-list1 .ftitle {
+	font-size: 24upx;
+	color: #a4a4a4;
+	margin: 10upx 0upx;
+}
+
+/* 第三样式*/    
+.video-list2 .video-view { 
+	padding: 30upx;
+	background-color: #ffffff; 
+	display: flex; 
+	border-bottom: solid #EEE 1upx;
+}
+
+.video-list2 .video-img-view {
+	width: 288upx;
+	height: 192upx;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+.video-list2 .video-img-view .video-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12upx;
+	overflow: hidden;
+}
+
+.video-list2 .video-img-view .video-play {
+	width: 71upx;
+	height: 71upx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.video-list2 .video-down {
+	width: 350upx; 
+	margin-left: 25upx;
+	padding-top: 15upx;
+}
+
+.video-list2 .video-name {
+	font-size: 30upx;
+	color: #232323;
+}
+
+.video-list2 .video-dview {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24upx;
+	color: #a4a4a4;
+	margin-top: 30upx;
+}
+
+.video-list2 .price {
+	font-size: 30upx;
+}
+
+.video-list2 .ftitle {
+	font-size: 24upx;
+	color: #a4a4a4;
+	margin: 20upx 0upx;
+}
